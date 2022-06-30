@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/thaianecamarda/ifood-api/issues"
   },
-  "homepage": "https://github.com/thaianecamarda/ifood-api#readme"
+  "homepage": "https://github.com/thaianecamarda/ifood-api#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
