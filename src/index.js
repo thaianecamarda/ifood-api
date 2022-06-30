@@ -8,11 +8,11 @@ app.get('/', (req, res) => {
     res.send('Ifood API')
 })
 
-app.post('/restaurante', (req, res) => {
+app.post('/restaurantes', (req, res) => {
     const { nome, endereco } = req.body
 
     const novoRestaurante = {
-        id: restaurante.length + 1,
+        id: restaurantes.length + 1,
         nome: nome,
         endereco: endereco,
         cardapio: []
